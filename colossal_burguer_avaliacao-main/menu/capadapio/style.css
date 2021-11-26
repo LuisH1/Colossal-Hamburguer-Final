@@ -1,0 +1,156 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+   
+}
+
+#cardapio{
+    margin: 0 auto;
+    padding: 50px;
+   background-color: #f2B33d;
+    max-width: 700px;
+    height: auto;
+    border:50px none;
+   
+}
+
+.flex-conteiner {
+    margin: 0 auto;
+    display: flex;
+    max-width: 700px;
+    height: 80%;
+   
+  
+  
+}
+
+
+
+
+#nome-cardapio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+table td, th {
+    padding: 10px;
+    word-wrap: word-break;
+}
+table:hover
+/* footer */
+#container-footer{
+    padding-top: 5px;
+    display: flex;
+    width: auto;
+    gap: 2rem;
+    margin: 0 auto;
+
+}
+#container-footer{
+    margin-top: 10px;
+   
+}
+
+#container-footer a img{
+    transition: all .3s ease;
+    width: 30px;
+    background:white;
+}
+
+#container-footer a img:hover{
+    transform: scale(1.3);
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: -2px -2px 3px rgb(211, 206, 206);
+    margin-bottom: 5px;
+    margin-top: 5px;
+  
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+/* Botão*/
+#botaoTema{
+    border-radius: 20px;
+    color: #f2B33d;
+    border-style: 2px solid;
+    
+}
+a:hover{
+ background-color: rgb(237, 109, 100);
+}
+
+/* header */
+header{
+    background-image: linear-gradient(to bottom, #f08121, #f08710, #b65608);
+    margin-bottom: 22px;
+    box-shadow: 2px 2px 4px #0000004b;
+    padding: 0px 10px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+#header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5px;
+}
+#header > nav > div {
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px 0px 0px;
+}
+#logo{
+    width: 120px;
+}
+.login-but{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    margin-right: 10px;
+}
+.login-but:hover{
+   border-color: white;
+   text-decoration: none;
+   color: white;
+}
+.link{
+    padding: 10px 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+}
+.link:hover{
+    background-color: #c05905;
+    text-decoration: none;
+    color: white;
+}

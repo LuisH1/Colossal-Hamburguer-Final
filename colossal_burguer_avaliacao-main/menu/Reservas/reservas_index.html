@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Colossal Burger</title>
+    <link rel="shortcut icon" href="reservas_img/hamburguer.png" type="image/x-icon">
+    <link rel="stylesheet" href="reservas_style/reservas.css">
+    <script src="reservas_js/reservas.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div>
+                <div>
+                    <img id="logo" src="reservas_img/logo.png">
+                </div>
+                <div>
+                    <a class="login-but" href="#">Login</a>
+                    <a class="login-but" href="#">Cadastre-se</a>
+                </div>
+            </div>
+            <nav>
+                <div>
+                    <a class="link" href="../../index.html">Home</a>
+                    <a class="link" href="reservas_index.html">Reservas</a>
+                    <a class="link" href="../Pratos populares/pratos_popuares_index.html">Pratos Populares</a>
+                    <a class="link" href="../capadapio/cardapio.html">Cardápio</a>
+                    <a class="link" href="../contato/contato.html">Contato</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div id="form">
+            <h2>Reserve já seu pedido!</h2>
+            <div class="message"></div>
+            <form>
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input class="info" type="text" id="nome" placeholder="Insira seu nome" >
+                    </div>
+                    <div>
+                        <label for="data">Data:</label>
+                        <input class="info" type="date" id="data">
+                    </div>
+                    <div>
+                        <label for="hora">Horário:</label>
+                        <input class="info" type="time" id="hora">
+                    </div>
+
+                    <div>
+                        <label for="email">Email para Contato:</label>
+                        <input class="info" type="email" id="email" placeholder="Insira seu email" required>
+                    </div>
+                    <div>
+                        <label for="fonenumber">Número para Contato:</label>
+                        <input class="info" type="tel" id="fonenumber" placeholder="(  )">
+                    </div>
+                    <div>
+                        <input onclick="applyMessage()" class="botao" type="button" value="Salvar">
+                    </div>
+                    <div>
+                        <input onclick="cancel()" class="botao" type="button" value="Cancelar">
+                    </div>
+            </form>
+        </div>
+        <div>
+            <img id="colossal" src="reservas_img/gif logo.gif" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div id="container-footer">
+            <a href=""><img src="reservas_img/icon-facebook.svg" alt=""></a>
+            <a href=""><img src="reservas_img/icon-instagram.svg" alt=""></a>
+            <a href=""><img src="reservas_img/icon-linkedin.svg" alt=""></a>
+            <a href=""><img src="reservas_img/icon-wpp.svg" alt=""></a>
+        
+        </div>
+        <div id="container-footer2">
+        <p>© 2021 Start-Latam-Recife | Colossals Company|  Todos os direitos reservados.</p>
+    </div>
+    
+    </footer>
+</body>
+
+</html>
